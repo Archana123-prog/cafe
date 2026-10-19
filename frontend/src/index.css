@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root { color-scheme: light; }
+
+body {
+  margin: 0;
+  background: #f7c948;
+  font-family: "Bricolage Grotesque Variable", system-ui, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: contain;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition-duration: 0.01ms !important; }
+}
